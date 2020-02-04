@@ -16,7 +16,6 @@ const burger = props => {
     if (transoformedIngridients.length === 0) {
         transoformedIngridients = <p>Please start adding ingridients!</p>;
     }
-    console.log(transoformedIngridients);
     return (
         <div className={classes.Burger}>
             <BurgerIngridient type="bread-top"></BurgerIngridient>
